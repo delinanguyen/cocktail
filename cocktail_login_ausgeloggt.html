@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Logout von Sunny Days">
+    <meta name="keywords" content="Logout, Mitglied, Community, sunny, days">
+    <title>Logout</title>
+    <link rel="stylesheet" type="text/css" href="css/style_c.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <h4 class="logo">&nbsp;</h4>
+        <input type="checkbox" id="nav-toggle" class="nav-toggle">
+        <nav>
+            <ul>
+                <li><a href="index.html" title="Startseite">Startseite</a>
+                </li>
+                <li><a href="cocktail_cocktailliste.html" title="Cocktailliste">Cocktailliste</a>
+                </li>
+                <li><a href="cocktail_zutatenliste.html"  title="Zutaten">Zutaten</a>
+                </li>
+                <li class="login-icon">
+                    <a href="cocktail_login.html" title="Login">Login</a>
+                        <label class="icon-user">
+                            <span class="fa fa-user-circle"></span>
+                        </label>
+                </li>
+                <li class="search-icon">
+                    <input type="search" placeholder="Suche">
+                    <label class="icon">
+                        <span class="fa fa-search"></span>
+                    </label>
+                </li>
+            </ul>
+        </nav>
+        <label for="nav-toggle" class="nav-toggle-label">
+            <span></span>
+        </label>
+    </header>
+    <main>
+        <div class="banner">
+            <h1>Sunny Days</h1>
+        </div>
+
+            <div class="login-text-container">
+                <div class="login-text-content">
+
+                    <div class="login_text">
+                        <p>Erfolgreich ausgeloggt.
+                        Bis zum nächsten Mal!</p>
+                    </div>
+
+                </div>
+
+                <div class="login">
+                    <p>
+                    <form action="index_eingeloggt.html" method="get">
+                        <h2>Teil der Community sein!</h2>
+                        <label>Benutzername:</label>
+                        <input type="text" id="name" name="name" placeholder="Name" required />
+
+                        <p>
+                            <label>Passwort:</label>
+                            <input type="password" id="password" name="password" placeholder="Passwort" required />
+                        </p>
+                        <p>
+                            <input class="button btn1" type="submit" value="Login" />
+                        </p>
+                    </form>
+                </div>
+            </div>
+    
+    </main>
+    <footer>
+        <div class=foot>
+            <a href="cocktail_impressum.html" title="Impressum">Impressum</a>
+            <p class="copyright"><i class="fa fa-copyright"></i>&nbsp;Sunny Days GmbH</p>
+        </div>
+    </footer>
+</body>
+
+</html>
